@@ -1,0 +1,32 @@
+:root {
+  --iphone-overlay-border-radius: 9.5% 9.5% 9.5% 9.5% / 5% 5% 5% 5%;
+}
+
+.campaign-iphone-container {
+  position: relative;
+  display: inline-block;
+}
+
+.campaign-iphone-overlay {
+  overflow: hidden;
+  position: absolute;
+  top: 6.4%;
+  left: 9.9%;
+  right: 9.9%;
+  bottom: 6.4%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--iphone-overlay-border-radius);
+}
+
+.campaign-iphone-notch {
+  position: absolute;
+  top: 6.25%;
+  left: 50%;
+  width: 48%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: block;
+}
