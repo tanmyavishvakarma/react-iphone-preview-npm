@@ -1,6 +1,6 @@
 {
   "name": "react-iphone-preview",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "private": false,
   "peerDependencies": {
     "prop-types": "^15.8.1",
@@ -28,7 +28,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "The `IphonePreview` component is a simple yet powerful component that lets you showcase content inside an iPhone illustration. This component comes with an iPhone frame and a notch image which provides an authentic iPhone preview experience.",
+  "description": "The React Iphone Preview component is a simple component that lets you showcase content inside an IPhoneX illustration.",
   "main": "/src/index.js",
   "devDependencies": {},
   "author": "tanmyavishvakarma",
