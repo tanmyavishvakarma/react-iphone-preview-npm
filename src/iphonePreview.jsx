@@ -6,7 +6,7 @@ import "./iphonePreviewStyles.css"
 
 function IphonePreview({ content, overlayStyle }) {
     return (
-        <div className="campaign-iphone-container">
+        <div className="iphone-container">
             <img
                 src={phone}
                 alt="Illustration of an iPhone"
@@ -15,10 +15,10 @@ function IphonePreview({ content, overlayStyle }) {
             <img
                 src={notch}
                 alt="iPhone Notch"
-                className="campaign-iphone-notch"
+                className="iphone-notch"
             />
             <div
-                className="campaign-iphone-overlay"
+                className="iphone-overlay"
                 style={overlayStyle}>
                 {content}
             </div>
