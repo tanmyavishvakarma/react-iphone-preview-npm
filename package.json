@@ -1,6 +1,6 @@
 {
   "name": "react-iphone-preview",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "private": false,
   "peerDependencies": {
     "prop-types": "^15.8.1",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -29,8 +30,16 @@
     ]
   },
   "description": "The React Iphone Preview component is a simple component that lets you showcase content inside an IPhoneX illustration.",
-  "main": "/src/index.js",
-  "devDependencies": {},
+  "main": "./dist/index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/preset-react": "^7.23.3"
+  },
   "author": "tanmyavishvakarma",
   "license": "ISC",
   "keywords": [
