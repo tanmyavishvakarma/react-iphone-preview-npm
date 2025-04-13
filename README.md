@@ -1,11 +1,15 @@
-# React Iphone Preview Component
+# React iPhone Preview Component
 
-The React Iphone Preview is a simple component that lets you showcase content inside an IPhoneX illustration.
+The React iPhone Preview is a simple component that lets you showcase content inside an iPhone X illustration.
 
 ## Installation
+
+```bash
+npm install react-iphone-preview --force
 ```
-npm install react-iphone-preview
-```
+
+> **Note about `--force` flag**:  
+> This package currently requires React 18. If you're using React 19+ in your project, you must install with `--force` to bypass version conflicts. A future update will add React 19 support.
 
 ```jsx
 import { IphonePreview } from 'react-iphone-preview';
@@ -13,7 +17,7 @@ import { IphonePreview } from 'react-iphone-preview';
 
 ## Usage
 
-To use the `IphonePreview` component, simply render it in your JSX and provide the desired props:
+To use the `IphonePreview` component, simply render it in your JSX:
 
 ```jsx
 <IphonePreview content={<YourContent />} />
@@ -23,7 +27,7 @@ To use the `IphonePreview` component, simply render it in your JSX and provide t
 
 ### 1. content (Optional)
 
-The `content` prop allows you to insert any content, such as an react components, images or text, inside the iPhone's screen area.
+The `content` prop allows you to insert any React nodes (components, images, text) inside the iPhone's screen area.
 
 - Type: `PropTypes.node`
 - Default: `null`
