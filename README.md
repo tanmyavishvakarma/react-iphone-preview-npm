@@ -5,11 +5,13 @@ The React iPhone Preview is a simple component that lets you showcase content in
 ## Installation
 
 ```bash
-npm install react-iphone-preview --force
+npm install react-iphone-preview
 ```
 
-> **Note about `--force` flag**:  
-> This package currently requires React 18. If you're using React 19+ in your project, you must install with `--force` to bypass version conflicts. A future update will add React 19 support.
+> **React 19+ only:** If you're on React 19, add `--force` to bypass peer dependency conflicts:
+> ```bash
+> npm install react-iphone-preview --force
+> ```
 
 ```jsx
 import { IphonePreview } from 'react-iphone-preview';
