@@ -1,6 +1,6 @@
 {
   "name": "react-iphone-preview",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "private": false,
   "dependencies": {
     "prop-types": "^15.8.1"
