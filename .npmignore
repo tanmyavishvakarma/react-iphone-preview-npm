@@ -11,6 +11,10 @@
 # production
 /build
 
+# source & assets not needed by consumers (images are base64-embedded in dist)
+/src
+/dist/assets
+
 # misc
 .DS_Store
 .env.local
